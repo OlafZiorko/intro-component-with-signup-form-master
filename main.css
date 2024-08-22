@@ -201,7 +201,7 @@ input.error ~ span {
   /*article*/
   .article {
     text-align: left;
-    align-self: center;
+
     margin-block-start: 6.7rem;
     margin-block-end: 0;
   }
@@ -209,6 +209,7 @@ input.error ~ span {
     font-size: 3.2rem;
     line-height: 1.15;
     margin-block-end: 1.75rem;
+    margin-block-start: 4rem;
   }
   .article__para {
     line-height: 1.7;
