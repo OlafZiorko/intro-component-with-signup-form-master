@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <!--article-->
+      <article class="article">
+        <h1 class="article__heading">Learn to code by watching others</h1>
+        <p class="article__para">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </article>
+      <!--section-->
+      <section class="info__section">
+        <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+      </section>
+      <!--form-->
+      <form class="form" autocomplete="off">
+        <div class="input-container">
+          <input
+            class="input"
+            type="text"
+            name="userName"
+            id="userName"
+            placeholder="First Name"
+          />
+          <img class="error-icon" src="./images/icon-error.svg" alt="" />
+          <span>First Name cannot be empty</span>
+        </div>
+        <div class="input-container">
+          <input
+            class="input"
+            type="text"
+            name="userLastName"
+            id="userLastName"
+            placeholder="Last Name"
+          />
+          <img class="error-icon" src="./images/icon-error.svg" alt="" />
+          <span>Last Name cannot be empty</span>
+        </div>
+        <div class="input-container">
+          <input
+            class="input"
+            type="email"
+            name="userEmail"
+            id="userEmail"
+            placeholder="Email Address "
+          />
+          <img class="error-icon" src="./images/icon-error.svg" alt="" />
+          <span>Looks like this is not an emial</span>
+        </div>
+        <div class="input-container">
+          <input
+            class="input"
+            type="password"
+            name="userPassword"
+            id="userPassword"
+            placeholder="Password"
+          /><img class="error-icon" src="./images/icon-error.svg" alt="" />
+          <span>Password cannot be empty</span>
+        </div>
+        <button class="btnSubmit" type="submit">Claim your free trial</button>
+        <p class="form__para">
+          By clicking the button, you are agreeing to our
+          <a class="form__link" href="#">Terms and Services</a>
+        </p>
+      </form>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
